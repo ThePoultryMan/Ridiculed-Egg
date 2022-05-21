@@ -4,6 +4,7 @@
     "package": "io.github.thepoultryman.regg.mixin",
     "compatibilityLevel": "JAVA_17",
     "mixins": [
+        "FoodHealingMixin",
         "XpDamageMixin"
     ],
     "injectors": {

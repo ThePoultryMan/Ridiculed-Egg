@@ -2,5 +2,7 @@
     "regg.advancements.root": "Ridiculed Egg",
     "regg.advancements.root.description": "Let the \"fun\" begin...",
     "regg.advancements.hurtful_experience": "Hurtful Experience",
-    "regg.advancements.hurtful_experience.description": "Take damage by collecting an experience orb"
+    "regg.advancements.hurtful_experience.description": "Take damage by collecting an experience orb",
+    "regg.advancements.blessed_food": "Blessed Food",
+    "regg.advancements.blessed_food.description": "Eat any food and become healed."
 }

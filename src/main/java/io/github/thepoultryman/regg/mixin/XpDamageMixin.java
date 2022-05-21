@@ -17,7 +17,7 @@ public abstract class XpDamageMixin extends Entity {
         super(entityType, world);
     }
 
-    @Inject(at = @At("HEAD"), method = "onPlayerCollision")
+    @Inject(method = "onPlayerCollision", at = @At("HEAD"))
     private void regg$hurtPlayerOnAddition(PlayerEntity player, CallbackInfo ci) {
         if (!this.world.isClient && this.random.nextInt(5) == 0)
             player.damage(ReggDamageSource.experienceOrb(this), 3f);

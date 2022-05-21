@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:apple"
+		},
+		"title": {
+			"translate": "regg.advancements.blessed_food"
+		},
+		"description": {
+			"translate": "regg.advancements.blessed_food.description"
+		}
+	},
+	"parent": "regg:root",
+	"criteria": {
+		"eatFood": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"tag": "regg:blessed_food"
+				}
+			}
+		}
+	}
+}
