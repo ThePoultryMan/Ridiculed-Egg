@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": {
+            "translate": "regg.advancements.root"
+        },
+        "description": {
+            "translate": "regg.advancements.root.description"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "begin": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

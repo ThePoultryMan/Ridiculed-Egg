@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": {
+            "translate": "regg.advancements.hurtful_experience"
+        },
+        "description": {
+            "translate": "regg.advancements.hurtful_experience.description"
+        },
+        "hidden": true
+    },
+    "parent": "regg:root",
+    "criteria": {
+        "getHurtByXp": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "source_entity": {
+                        "type": "minecraft:experience_orb"
+                    }
+                }
+            }
+        }
+    }
+}
