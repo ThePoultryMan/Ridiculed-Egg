@@ -1,6 +1,7 @@
 package io.github.thepoultryman.regg;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.object.builder.v1.advancement.CriterionRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
